@@ -9,20 +9,12 @@
         <meta content="#FFFFFF" data-react-helmet="true" name="theme-color" />
         <meta name="twitter:card" content="summary_large_image">
         <link rel="icon" type="image/x-icon" href="/favicon.ico">
-        
-        <meta name="viewport" content ="width=device-width,initial-scale=1,user-scalable=yes" />
-
 
         <style>
             h1 {text-align: center;}
             html {
                 background: url(images/wide.png) no-repeat center center fixed;
                 background-size: cover;
-            }
-
-            html, body {
-                height: 100vh;
-                height: calc(var(--vh, 1vh) * 100);
             }
 
             #page-wrap {
@@ -32,12 +24,6 @@
                 padding: 20px;
                 background: wheat;
                 box-shadow: 0 0 20px black;
-            }
-
-            @media (max-width: 600px) {
-                #page-wrap {
-                    width: 90%;
-                }
             }
         </style>
     </head>
@@ -56,12 +42,7 @@
             </div>
         </div> 
         <script>
-            const resizeOps = () => {
-                document.documentElement.style.setProperty("--vh", window.innerHeight * 0.01 + "px");
-            };
-
-            resizeOps();
-            window.addEventListener("resize", resizeOps);
+            
         </script>
         <!-- <h1>activate the bindi machine</h1>
         <div class="navbar">
