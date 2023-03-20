@@ -1,3 +1,4 @@
 User-Agent: *
 Allow: /
 
+Sitemap: https://hygieneharmony.co.uk/sitemap.xml
