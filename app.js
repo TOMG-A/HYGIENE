@@ -20,6 +20,10 @@ app.get('/', function(req,res,next) {
   res.sendFile(path.join(__dirname, "./views/index.html"))
 });
 
+app.get('/about', function(req,res,next) {
+  res.sendFile(path.join(__dirname, "./views/info.html"))
+})
+
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
   next(createError(404));
